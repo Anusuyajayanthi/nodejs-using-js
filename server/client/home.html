@@ -1,0 +1,37 @@
+<html>
+    <head>
+            <link rel="stylesheet" type="text/css" href="assets/css/homestyle.css">
+            <script type = "text/javascript" src="./assets/scripts/userreq.js"></script>  
+           
+        </head>
+       
+            
+            <input type="button" name="insert" value="insert" onclick="insert_value()"/><br><br>
+            
+        
+        <body onload="createTable()">
+    
+                
+               <table border ="1">
+                <thead>
+                    <tr> 
+                    <th>ProductId</th>
+                    <th>Productname</th>
+                    <th>Ownername</th>
+                    <th>OwnerId</th>
+                    <th>ProductUrl</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="productsInformation">
+                </tbody>
+           </table>
+           
+     
+            <a href="login.html"><input type="button" name="logout" value="logout"><br><br><br></a>
+            
+        </body>
+        
+   
+</html>
